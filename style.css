@@ -1,0 +1,119 @@
+/* Reset some basic defaults */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Header styles */
+  .main-header {
+    background: linear-gradient(to right, #0077b6, #00b4d8);
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+  }
+  
+  .header-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .header-content p {
+    font-size: 1.25rem;
+    opacity: 0.9;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  /* Importance of Exercise Section */
+.importance-section {
+    background-color: #ffffff;
+    padding: 60px 20px;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .importance-section h2 {
+    font-size: 2.5rem;
+    color: #0077b6;
+    margin-bottom: 30px;
+  }
+  
+  .importance-text p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    color: #555;
+  }
+  /* Exercise Tutorials Section */
+.tutorials-section {
+    background-color: #f8f9fa;
+    padding: 60px 20px;
+  }
+  
+  .tutorials-section h2 {
+    font-size: 2.5rem;
+    color: #0077b6;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .tutorials-grid {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  }
+  
+  .tutorial-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease;
+  }
+  
+  .tutorial-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .tutorial-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .tutorial-card h3 {
+    font-size: 1.5rem;
+    margin: 20px;
+    color: #333;
+  }
+  
+  .tutorial-card p {
+    font-size: 1rem;
+    margin: 0 20px 20px;
+    color: #555;
+  }
+  /* Footer Section */
+.main-footer {
+    background-color: #0077b6;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+  }
+  
+  .footer-content p {
+    margin: 8px 0;
+    font-size: 1rem;
+    opacity: 0.9;
+  }
+  
+  
